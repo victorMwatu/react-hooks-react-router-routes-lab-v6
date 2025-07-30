@@ -8,7 +8,12 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2"
   },
+  "babel":
+  {
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
+  },
   "devDependencies": {
+    "@babel/preset-react": "^7.27.1",
     "@eslint/js": "^9.9.0",
     "@learn-co-curriculum/jest-learn-reporter": "^0.1.0",
     "@testing-library/jest-dom": "^6.5.0",
